@@ -49,7 +49,8 @@ namespace lab2
 
         static void Main(string[] args)
         {
-            
+            onsole.WriteLine("-------------------------------------------");
+            Thread.Sleep(2000);
             first = new Thread(() => firstThread());
             first.Start();
         }
